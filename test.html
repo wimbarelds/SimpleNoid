@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div id="text">TODO write content</div>
+        <script>
+            var t = document.querySelector('#text');
+            window.addEventListener("deviceorientation", function(e){
+                var positive = (e.gamma > 0) ? 1 : -1;
+                var abs = Math.abs(e.gamma);
+                var cap = Math.min(abs, 65);
+                var relative = cap / 65;
+                var quad = Math.pow(relative, 2);
+
+                moveRight = quad * positive;
+                t.innerHTML = moveRight + '<br>' + e.gamma;
+            }, true);
+        </script>
+    </body>
+</html>

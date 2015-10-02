@@ -1,0 +1,51 @@
+{
+    "brick": {
+        "x": 0,
+        "y": 0,
+        "w": 80,
+        "h": 40,
+        "img": "tiles/brick.png"
+    },
+    "black": {
+        "x": 0,
+        "y": 0,
+        "w": 80,
+        "h": 40,
+        "img": "tiles/black.png"
+    },
+    "blue": {
+        "x": 0,
+        "y": 0,
+        "w": 80,
+        "h": 40,
+        "img": "tiles/blue.png"
+    },
+    "gold": {
+        "x": 0,
+        "y": 0,
+        "w": 80,
+        "h": 40,
+        "img": "tiles/gold.png"
+    },
+    "green": {
+        "x": 0,
+        "y": 0,
+        "w": 80,
+        "h": 40,
+        "img": "tiles/green.png"
+    },
+    "red": {
+        "x": 0,
+        "y": 0,
+        "w": 80,
+        "h": 40,
+        "img": "tiles/red.png"
+    },
+    "white": {
+        "x": 0,
+        "y": 0,
+        "w": 80,
+        "h": 40,
+        "img": "tiles/white.png"
+    }
+}
